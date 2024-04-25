@@ -1,0 +1,4 @@
+.vs
+Debug/
+cplusplus_foundation.vcxproj.filters
+cplusplus_foundation.vcxproj.user
