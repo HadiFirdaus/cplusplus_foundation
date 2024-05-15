@@ -1,34 +1,28 @@
 #include "TheStatic.h"
 #include <iostream>
 
-int TheStatic::cde = 1;
+using std::cout;
+using std::endl;
+
+int TheStatic::count = 0;
 
 TheStatic::TheStatic()
 {
-	std::cout << "constructor" << std::endl;
+	//std::cout << "constructor: "<< std::endl;
+	//count++;
+	//cout << count<<endl;
 }
 
 TheStatic::~TheStatic()
 {
-	std::cout << "destructor"<<std::endl;
+	//std::cout << "destructor"<<std::endl;
 }
 
-void TheStatic::StaticVariable()
-{
-	static int abc = 1;
-	abc++;
-	std::cout << abc << std::endl;
+int TheStatic::GetCount() {
+	return count;
 }
 
-void TheStatic::NonStaticVariable()
+void TheStatic::SetCount(int num)
 {
-	int abc = 1;
-	abc++;
-	std::cout << abc << std::endl;
-}
-
-void TheStatic::StaticFunction()
-{
-	cde++;
-	std::cout << cde << std::endl;
+	count += num;
 }

@@ -1,26 +1,34 @@
 // cplusplus_foundation.cpp : This file contains the 'main' function. Program execution begins and ends there.
 //
 
-#include "Gameplay/Public/TheStatic.h"
+#include "TheStatic.h"
+#include "MyTemplate.h"
 #include <iostream>
+
+using std::cout;
+using std::endl;
 
 int main()
 {
-	//int x = 0;
-	//if (x == 0) {
-		//static TheStatic obj;
+	auto num0 = Max(10, 5);
+	std::cout << num0 << endl;
+	auto num = Max<double>(5, 11.5);	//specifying the type Max<double> T = double
+	std::cout << num<<endl;
+	auto char0 = Max('a', 'b');
+	std::cout << char0 << endl;
+	//for (int i = 0; i < 5; i++) {
+	//	//TheStatic::SetCount(2);
+	//	//std::cout << TheStatic::GetCount() << std::endl;
 	//}
-	for (int i = 0; i < 5; i++)
-	{
-		//obj.StaticVariable();
-		//obj.NonStaticVariable();
-		//obj.cde++;
-		//std::cout << obj.cde << std::endl;
-		//obj.StaticFunction();
-		TheStatic::cde++;
-		std::cout<<TheStatic::cde;
-	}
-	std::cout << "the end of main" << std::endl;
+	//TheStatic obj1;
+	//obj1.SetCount(5);
+	//std::cout << obj1.GetCount() << std::endl;
+	//TheStatic obj2;
+	//obj2.SetCount(3);
+	//std::cout << obj2.GetCount() << std::endl;
+	//TheStatic::SetCount(10);
+	//std::cout << TheStatic::GetCount() << std::endl;
+	//std::cout << "the end of main" << std::endl;
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu

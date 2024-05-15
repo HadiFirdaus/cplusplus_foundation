@@ -2,13 +2,11 @@
 
 class TheStatic {
 public:
-	
 	TheStatic();
 	~TheStatic();
-	void StaticVariable();
-	void NonStaticVariable();
-	static int cde;
-	static void StaticFunction();
-	int test = 0;
 
+	static int GetCount();
+	static void SetCount(int num);
+
+	static int count;
 };

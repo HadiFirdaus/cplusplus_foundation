@@ -140,10 +140,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Gameplay\Private\MyTemplate.cpp" />
+    <ClCompile Include="Gameplay\Private\Objective.cpp" />
+    <ClCompile Include="Gameplay\Private\QuestManager.cpp" />
     <ClCompile Include="Gameplay\Private\TheStatic.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Gameplay\Public\MyTemplate.h" />
+    <ClInclude Include="Gameplay\Public\Objective.h" />
+    <ClInclude Include="Gameplay\Public\QuestManager.h" />
     <ClInclude Include="Gameplay\Public\TheStatic.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
