@@ -1,2 +1,9 @@
-﻿  main.cpp
-  cplusplus_foundation.vcxproj -> C:\Users\Admin\Documents\Visual Studio 2019\cplusplus_foundation\Debug\cplusplus_foundation.exe
+﻿  MyTemplate.cpp
+D:\Documents\Visual Studio 2019\cplusplus_foundation\Gameplay\Private\MyTemplate.cpp(1,10): fatal error C1083: Cannot open include file: 'Gameplay/Public/MyTemplate.h': No such file or directory
+  Objective.cpp
+D:\Documents\Visual Studio 2019\cplusplus_foundation\Gameplay\Private\Objective.cpp(1,10): fatal error C1083: Cannot open include file: 'Objective.h': No such file or directory
+  QuestManager.cpp
+D:\Documents\Visual Studio 2019\cplusplus_foundation\Gameplay\Private\QuestManager.cpp(1,10): fatal error C1083: Cannot open include file: 'QuestManager.h': No such file or directory
+  TheStatic.cpp
+D:\Documents\Visual Studio 2019\cplusplus_foundation\Gameplay\Private\TheStatic.cpp(1,10): fatal error C1083: Cannot open include file: 'Gameplay/Public/TheStatic.h': No such file or directory
+  Generating Code...

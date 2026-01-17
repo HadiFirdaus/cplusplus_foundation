@@ -1,8 +1,8 @@
 // cplusplus_foundation.cpp : This file contains the 'main' function. Program execution begins and ends there.
 //
 
-#include "TheStatic.h"
-#include "MyTemplate.h"
+#include "Gameplay/Public/TheStatic.h"
+#include "Gameplay/Public/MyTemplate.h"
 #include <iostream>
 
 using std::cout;

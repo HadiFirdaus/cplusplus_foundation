@@ -1,6 +1,7 @@
 #include "Objective.h"
 #include "TheStatic.h"
 
+
 Objective::Objective() {
 	
 }
